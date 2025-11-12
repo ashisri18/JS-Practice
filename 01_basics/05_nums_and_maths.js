@@ -13,7 +13,7 @@
  console.log('Pi (fixed 3):', pi.toFixed(3));
  console.log('Pi (precision 4):', pi.toPrecision(4));  
  console.log('Pi (precision 2):', pi.toPrecision(2));
- console.log('Pi (precision 6):', pi.toPrecision(5));
+ console.log('Pi (precision 5):', pi.toPrecision(5));
 
 const largeNum = 1234567890n; 
 console.log('Large Number:', largeNum);
@@ -27,3 +27,20 @@ console.log('Number in Indian format (toLocaleString):', largeNum.toLocaleString
 
 // ++++++++++++++++++++++++ Maths +++++++++++++++++++++++++++++++
 console.log('\n--- Maths Examples ---');
+console.log(Math)
+console.log(Math.abs(-4))
+console.log(Math.abs(4))
+console.log(Math.round(4.6))
+console.log(Math.ceil(4.2))
+console.log(Math.floor(4.9))
+console.log(Math.min(4, 6, 832, 6, 1, 8))
+console.log(Math.max(4, 6, 832, 6, 1, 8))
+
+console.log(Math.random())
+console.log((Math.random() * 10 ) + 1);
+console.log(Math.floor(Math.random() * 10 ) + 1);
+
+const min = 30
+const max = 50;
+
+console.log(Math.floor(Math.random() * (max - min) + 1) + min)
